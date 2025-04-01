@@ -47,7 +47,9 @@ echo -e "\033[48;5;15;1;30m Installing VSCodium \033[0m"
 flatpak install flathub com.vscodium.codium
 
 echo -e "\033[48;5;15;1;30m Installing Packages from python-pipx \033[0m"
+echo -e "\033[48;5;15;1;30m Installing yt-dlp \033[0m"
 pipx install yt-dlp
+echo -e "\033[48;5;15;1;30m Installing gytmdl \033[0m"
 pipx install gytmdl
 
 echo -e "\033[48;5;15;1;30m Changing default shell to zsh \033[0m"
