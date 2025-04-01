@@ -71,4 +71,12 @@ ln -s ~/.cfg/zsh/.* ~/
 
 sudo ln -s ~/.scripts/* /usr/local/bin
 
+echo -e "\033[48;5;15;1;30m UFW settings \033[0m"
+sudo ufw limit 22/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw enable
+
 echo -e "\033[48;5;15;1;30m Post-Install Complete :) \033[0m"
