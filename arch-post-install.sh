@@ -6,7 +6,7 @@ echo -e "\033[48;5;15;1;30m Updating System \033[0m"
 sudo pacman -Syu
 
 echo -e "\033[48;5;15;1;30m Installing Essential Packages \033[0m"
-sudo pacman -S --noconfirm p7zip bc bluez bluez-utils brightnessctl chafa cliphist feh file-roller flatpak foot gammastep git gvfs-mtp htop hyprland hyprlock hyprpicker lf libsixel man-db mpv neofetch neovim noto-fonts noto-fonts-cjk noto-fonts-extra nwg-look papirus-icon-theme pavucontrol python-pipx rclone rofi-wayland rofi-emoji swaync swww thunar thunar-archive-plugin ttf-hack ttf-jetbrains-mono ttf-roboto tumbler ufw waybar wget wlroots wob xdg-desktop-portal-gtk zathura zathura-pdf-mupdf zsh
+sudo pacman -S --noconfirm p7zip bc blueman bluez bluez-utils brightnessctl chafa cliphist feh file-roller flatpak foot gammastep git gvfs-mtp htop hyprland hyprlock hyprpicker lf libsixel man-db mpv neofetch neovim noto-fonts noto-fonts-cjk noto-fonts-extra nwg-look papirus-icon-theme pavucontrol python-pipx rclone rofi-wayland rofi-emoji swaync swww thunar thunar-archive-plugin ttf-hack ttf-jetbrains-mono ttf-roboto tumbler ufw waybar wget wlroots wob xdg-desktop-portal-gtk zathura zathura-pdf-mupdf zsh
 
 echo -e "\033[48;5;15;1;30m Installing yay (AUR helper) \033[0m"
 mkdir ~/yay
